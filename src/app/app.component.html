@@ -1,0 +1,19 @@
+<div class="navbar">
+  <h1 class="brand">Project Manager / <small>Exemple</small></h1>
+  <ul>
+	<li routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Application</li>
+  <li routerLink="/info" routerLinkActive="active-link">Infos</li>
+	<li routerLink="/teacher" routerLinkActive="active-link">Formateur</li>
+</ul>
+</div>
+
+<div class="interface">
+  <app-priority></app-priority>
+
+  <!-- <app-board [board]=board></app-board>
+  <app-info></app-info> -->
+  <router-outlet></router-outlet>
+
+
+</div>
+
